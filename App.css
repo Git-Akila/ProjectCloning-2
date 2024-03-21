@@ -1,0 +1,45 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+Header ul li{
+  @apply px-3;
+}
+@layer base{
+  body{
+    @apply font-Nunito font-semibold;
+  }
+}
+.button{
+  @apply p-2 bg-cyan-600 text-white h-[40px] w-[150px] rounded;
+}
+.button:hover{
+  @apply bg-black text-white;
+}
+.mobile{
+  @apply fixed top-20 left-0 bg-gray-400 w-full h-[267px];
+}
+.forhover:hover{
+  @apply border-b-2 text-black border-b-cyan-700 rounded ;
+}
+ .mobile ul li{
+  @apply w-full text-center border-b-2 p-3 ;
+ } 
+ .mobile ul li:hover{
+  @apply bg-black text-white border-b-2 border-b-cyan-600;
+ }
+ .ff1{
+    @apply  text-white font-semibold;
+ }
+ 
+.overlay{
+  @apply absolute top-0 left-0 md:w-full md:h-[700px]  bg-[rgba(0,0,0,.4)];
+}
+.content{
+  @apply absolute w-full h-full top-0 flex flex-col text-center justify-center align-middle text-white;
+}
