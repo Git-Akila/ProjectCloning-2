@@ -1,0 +1,50 @@
+
+.icons{
+    
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    margin-top:-200px;
+    margin-left:40%;
+    z-index: 1;
+    
+}
+.icons:hover{
+    color: rgb(215, 225, 225);
+    background-color: black;
+}
+
+.icon:hover{
+    color: rgb(215, 225, 225);
+    background-color: black;
+}
+
+.head1{
+    font-weight: 700;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.width{
+    width:400px;
+    height:400px;
+}
+.scroll-top {
+    position: absolute;
+    z-index: 3;
+    color: rgb(24, 23, 23);
+    top: -27.5px;
+    display: none;
+    right: calc(50% - 27.5px);
+    border: 6px solid #081a55;
+    animation: pulse 2s infinite;
+    width: 55px;
+    height: 55px;
+    background: #00cc83;
+    line-height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
