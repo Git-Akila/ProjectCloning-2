@@ -1,0 +1,56 @@
+
+
+
+
+.ff12{
+    font-size: 42px;
+    font-weight: 700;
+    color: #262d3d;
+    font-family: 'Raleway', sans-serif;
+    line-height: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sub-title-two {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #204ecf;
+    font-family: 'Raleway', sans-serif;
+}
+.button1{
+    background-color: lightgreen;
+    color:white;
+    padding: 10px;
+    height: 50px;
+    width:170px;
+    border-radius:5px;
+    justify-content: center;
+}
+.button1:hover{
+    background-color: aqua;
+    color:black;
+}
+.button2{
+    background-color: lightgray;
+    color:white;
+    padding: 10px;
+    height: 50px;
+    width:140px;
+    border-radius:5px;
+    justify-content: center;
+}
+.button2:hover{
+    background-color: aqua;
+    color:black;
+}
+
+.what1{
+    height:50px;
+    width:180px;
+    background-color: rgb(83, 161, 162);
+    color:black;
+    justify-content: center;
+    align-items: center;
+}
